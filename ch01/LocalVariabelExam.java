@@ -7,9 +7,9 @@ public class LocalVariabelExam {
 		int num = 4 ; 
 		
 		if (num > 5) {
-			System.out.println("¼ıÀÚ°¡ 5º¸´Ù Å®´Ï´Ù.");
+			System.out.println("ìˆ«ìê°€ 5ë³´ë‹¤ í½ë‹ˆë‹¤.");
 		}
-		System.out.println("if ¿¬½À");
+		System.out.println("if ì—°ìŠµ");
 	}
 
 }

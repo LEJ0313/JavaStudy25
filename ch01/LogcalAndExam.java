@@ -7,20 +7,20 @@ public class LogcalAndExam {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in) ;
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¸é ´ë¼Ò¹®ÀÚ³ª ¼ıÀÚ¸¦ ÆÇ´ÜÇØ µå¸±°Ô¿ä.") ;
-		System.out.println("À¯´ÏÄÚµåÇ¥¸¦ Âü°íÇÏ¿© ÇÁ·Î±×·¥À» Á¦ÀÛÇÏ¿´½À´Ï´Ù.") ;
+		System.out.println("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œë©´ ëŒ€ì†Œë¬¸ìë‚˜ ìˆ«ìë¥¼ íŒë‹¨í•´ ë“œë¦´ê²Œìš”.") ;
+		System.out.println("ìœ ë‹ˆì½”ë“œí‘œë¥¼ ì°¸ê³ í•˜ì—¬ í”„ë¡œê·¸ë¨ì„ ì œì‘í•˜ì˜€ìŠµë‹ˆë‹¤.") ;
 		System.out.print(">>>") ;
 		int charCode = input.nextInt() ;
 		if ( (charCode >= 65) & ( charCode <= 90 ) ) {
-			System.out.println("ÇöÀç ÀÔ·ÂµÈ ¼ıÀÚ´Â ´ë¹®ÀÚÀÔ´Ï´Ù. : " +(char)charCode);
+			System.out.println("í˜„ì¬ ì…ë ¥ëœ ìˆ«ìëŠ” ëŒ€ë¬¸ìì…ë‹ˆë‹¤. : " +(char)charCode);
 		}else if( (charCode>=97) && (charCode<=122) ) {
-			System.out.println("ÇöÀç ÀÔ·ÂµÈ ¼ıÀÚ´Â ¼Ò¹®ÀÚÀÔ´Ï´Ù. : " +(char)charCode);
+			System.out.println("í˜„ì¬ ì…ë ¥ëœ ìˆ«ìëŠ” ì†Œë¬¸ìì…ë‹ˆë‹¤. : " +(char)charCode);
 		}else if( !(charCode < 48) && !(charCode > 57) ) {
-			System.out.println("ÇöÀç ÀÔ·ÂµÈ ¼ıÀÚ´Â À¯´ÏÄÚµåÀÇ ¹®ÀÚÇü ¼ıÀÚÀÔ´Ï´Ù. : " 
+			System.out.println("í˜„ì¬ ì…ë ¥ëœ ìˆ«ìëŠ” ìœ ë‹ˆì½”ë“œì˜ ë¬¸ìí˜• ìˆ«ìì…ë‹ˆë‹¤. : " 
 		+(char)charCode);
 		}else {
-			System.out.println("´ë¹®ÀÚ, ¼Ò¹®ÀÚ, ¼ıÀÚÀÇ À¯´ÏÄÚµå Ç¥¿¡ ¾ø´Â ¼ıÀÚÀÔ´Ï´Ù.");
-			System.out.println("ÇÁ·Î±×·¥À» ´Ù½Ã ½ÇÇàÇØÁÖ¼¼¿ä.");
+			System.out.println("ëŒ€ë¬¸ì, ì†Œë¬¸ì, ìˆ«ìì˜ ìœ ë‹ˆì½”ë“œ í‘œì— ì—†ëŠ” ìˆ«ìì…ë‹ˆë‹¤.");
+			System.out.println("í”„ë¡œê·¸ë¨ì„ ë‹¤ì‹œ ì‹¤í–‰í•´ì£¼ì„¸ìš”.");
 		}
 
 	}

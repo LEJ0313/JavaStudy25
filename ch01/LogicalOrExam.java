@@ -7,13 +7,13 @@ public class LogicalOrExam {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in) ;
-		System.out.println("2ÀÇ ¹è¼ö³ª 3ÀÇ ¹è¼öÀÎ °ÍÀ» È®ÀÎÇØº¼±î¿ä ?") ;
+		System.out.println("2ì˜ ë°°ìˆ˜ë‚˜ 3ì˜ ë°°ìˆ˜ì¸ ê²ƒì„ í™•ì¸í•´ë³¼ê¹Œìš” ?") ;
 		System.out.print(">>>");
 		int value = input.nextInt() ;
 		if ( (value%2==0) | (value%3==0) ) {
-			System.out.println("2ÀÇ ¹è¼ö ¶Ç´Â 3ÀÇ ¹è¼öÀÔ´Ï´Ù. : " +value);
+			System.out.println("2ì˜ ë°°ìˆ˜ ë˜ëŠ” 3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤. : " +value);
 		}else {
-			System.out.println("2ÀÇ ¹è¼ö ¶Ç´Â 3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù. : " +value);
+			System.out.println("2ì˜ ë°°ìˆ˜ ë˜ëŠ” 3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤. : " +value);
 		}
 	}
 

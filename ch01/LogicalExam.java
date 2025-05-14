@@ -13,33 +13,33 @@ public class LogicalExam {
 
 		Scanner input = new Scanner(System.in);
 
-		// ÄÜ¼ÖÀ» ÅëÇØ °ªÀ» ³ÖÀ» °´Ã¼
+		// ì½˜ì†”ì„ í†µí•´ ê°’ì„ ë„£ì„ ê°ì²´
 
-		System.out.print("·Î±×ÀÎ ÇÒ id¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
+		System.out.print("ë¡œê·¸ì¸ í•  idë¥¼ ì…ë ¥í•˜ì„¸ìš”. : ");
 
 		String id = input.nextLine();
 
-		System.out.println("ÀÔ·ÂÇÏ½Å id: " + id + "ÀÔ´Ï´Ù.");
+		System.out.println("ì…ë ¥í•˜ì‹  id: " + id + "ì…ë‹ˆë‹¤.");
 
-		System.out.print("·Î±×ÀÎÇÒ ¾ÏÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
+		System.out.print("ë¡œê·¸ì¸í•  ì•”í˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”. : ");
 
 		String pw = input.nextLine();
 
-		System.out.println("=== °ËÁõ ÁßÀÔ´Ï´Ù., ===");
+		System.out.println("=== ê²€ì¦ ì¤‘ì…ë‹ˆë‹¤., ===");
 
 
 		if((loginid.equals((id)) & loginpw.equals(pw))) {
 
-		System.out.println("id³ª pw°¡ ÀÏÄ¡ÇÕ´Ï´Ù.");
+		System.out.println("idë‚˜ pwê°€ ì¼ì¹˜í•©ë‹ˆë‹¤.");
 
-		System.out.println("·Î±×ÀÎ ¼º°ø");
+		System.out.println("ë¡œê·¸ì¸ ì„±ê³µ");
 
 
 		}else {
 
-		System.out.println("id³ª pwÀÌ ´Ù¸¨´Ï´Ù.");
+		System.out.println("idë‚˜ pwì´ ë‹¤ë¦…ë‹ˆë‹¤.");
 
-		System.out.println("·Î±×ÀÎ ½ÇÆĞ");
+		System.out.println("ë¡œê·¸ì¸ ì‹¤íŒ¨");
 		
 	}
 
