@@ -26,7 +26,7 @@ public class DoWhileExam2 {
 		
 		System.out.println("==========================");
 		System.out.println("업&다운 게임에 오신걸 환영합니다.");
-		System.out.println("3번 안에 맞추면 상품을 제공합니다.");
+		System.out.println("5번 안에 맞추면 상품을 제공합니다.");
 		System.out.println("상품 제공은 관리자에게 문의하세요.");
 		System.out.println("==========================");
 		
@@ -48,7 +48,7 @@ public class DoWhileExam2 {
 		//랜덤 숫자와 사용자의 입력한 숫자가 같으면 아래로 내려옴
 		System.out.println("정답입니다. " + answer);
 		System.out.println("고객님이 맞춘 횟수 : " + hits + "입니다.");
-		if(hits<=3) {
+		if(hits<=5) {
 			System.out.println("상품수령 : 관리자가 연락을 드립니다.");
 		}else {
 			System.out.println("상품수령 실패 : 다음번 기회는 없습니다.");
